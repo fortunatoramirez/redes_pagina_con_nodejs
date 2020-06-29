@@ -25,15 +25,15 @@ se deberá desplegar la página.
 
 ## Configurar en nuestro router una zona desmilitarizada y el mapeo de puerto para que el servidor sea 100% público:
 * Activar la zona desmilitarizada y agregar la IP de nuestra computadora (la que se encuentra corriendo al servidor NodeJS) a la zona:
-![](imagenes/dmz.png)
+![](imagenes/dmz.PNG)
 
 * Agregar el mapeo del puerto utilizado, colocando una vez más la IP de nuestra computadora, además del puerto utilizado:
-![](imagenes/mapeo_puerto.png)
+![](imagenes/mapeo_puerto.PNG)
 
-*Investigar la IP pública de nuestro router, por ejemplo:
+* Investigar la IP pública de nuestro router, por ejemplo:
   * https://www.whatismyip.com/ip-address-lookup/
 
-*Comprobar el funcionamiento del servidor-páginca, colocando nuestra dirección pública en un navegador externo a nuestra red:
+* Comprobar el funcionamiento del servidor-páginca, colocando nuestra dirección pública en un navegador externo a nuestra red:
 ```console
 http://ip.publica:5001/
 ```
@@ -43,7 +43,7 @@ http://ip.publica:5001/
   * https://www.duckdns.org/
 
 * Registrar nuestra dirección IP a un dominio deseado:
-![](imagenes/duckdns.png)
+![](imagenes/duckdns.PNG)
 
 * Verificar el correcto funcionamiento del servidor DNS, colocando el dominio desde un navegador externo a nuestra red. Por ejemplo:
 ```console
