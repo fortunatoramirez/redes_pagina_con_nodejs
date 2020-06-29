@@ -1,6 +1,5 @@
 # Sistemas de cómputo y redes - página con nodejs
 
-### instrucciones
 ## Preparar y correr el servidor en nuestra computadora:
 * Instalar NodeJS
   * https://nodejs.org/es/download/
