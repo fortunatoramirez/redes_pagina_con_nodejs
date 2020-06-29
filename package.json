@@ -1,0 +1,27 @@
+{
+  "name": "redes_pagina_con_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fortunatoramirez/redes_pagina_con_nodejs.git"
+  },
+  "keywords": [
+    "servidor",
+    "http",
+    "nodejs"
+  ],
+  "author": "Fortunato",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fortunatoramirez/redes_pagina_con_nodejs/issues"
+  },
+  "homepage": "https://github.com/fortunatoramirez/redes_pagina_con_nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
